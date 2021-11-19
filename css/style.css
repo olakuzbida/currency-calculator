@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Lato';
+}
+
+.form__fieldset {
+    border-color: rgb(6, 99, 68);
+    border-radius: 15px;
+    background-color: rgb(240, 235, 235);
+
+}
+
+.form__legend {
+    background-color: black;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.form__input {
+    width: 120px;
+    margin-left: 0px;
+    display: block;
+}
+
+.form__paragraph {
+    font-weight: bold;
+
+}
+
+.form__paragraph--result {
+    color:hsl(160, 89%, 40%)
+}

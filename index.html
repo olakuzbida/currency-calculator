@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <title>Currency calculator</title>
+</head>
+
+<body>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walutowy</legend>
+            <p>
+                <label>
+                    Ile PLN?* <input class="js-amount form__input" type="number" min=1 step="any" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Wybierz walutę <select class="js-currency form__input">
+                        <option value="Euro">Euro</option>
+                        <option value="Dolar">Dolar</option>
+                        <option value="Dirham">Dirham</option>
+                    </select>
+                </label>
+            </p>
+            <p class="form__paragraph"><span class="js-sentence">Otrzymana kwota</span> to: <span class="js-result form__paragraph--result">N/A</span></p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
