@@ -11,13 +11,13 @@ formElement.addEventListener("input", () => {
 
     switch(currencyElement.value){
         case "euro":
-            result = amountElement.value * euro;
+            result = amountElement.value / euro;
             break;
         case "dolar":
-            result = amountElement.value * dolar;
+            result = amountElement.value / dolar;
             break;
         case "dirham":
-            result = amountElement.value * dirham;
+            result = amountElement.value / dirham;
             break;
     }
 
