@@ -3,21 +3,21 @@ let currencyElement = document.querySelector(".js-currency");
 let amountElement = document.querySelector(".js-amount");
 let resultElement = document.querySelector(".js-result");
 let sentenceElement = document.querySelector(".js-sentence");
-let Euro = 4.66;
-let Dolar = 4.10;
-let Dirham = 1.12;
+let euro = 4.66;
+let dolar = 4.10;
+let dirham = 1.12;
 
 formElement.addEventListener("input", () => {
 
     switch(currencyElement.value){
-        case "Euro":
-            result = amountElement.value * Euro;
+        case "euro":
+            result = amountElement.value * euro;
             break;
-        case "Dolar":
-            result = amountElement.value * Dolar;
+        case "dolar":
+            result = amountElement.value * dolar;
             break;
-        case "Dirham":
-            result = amountElement.value * Dirham;
+        case "dirham":
+            result = amountElement.value * dirham;
             break;
     }
 
